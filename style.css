@@ -1,0 +1,67 @@
+.Navi{
+ display: flex;   
+ justify-content: space-between ;
+ border: 1px solid black ;
+
+}
+.Navitems ,ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+} 
+.image{
+    height: 80px;
+    width: 80px;
+}
+.body{
+    border: 10px solid black ;
+
+ 
+}
+.biryani{
+    height: 180px;
+    width: 150px;
+}
+.restcard{
+    height: auto;
+    width: 200px;
+    /* border: 0px solid black; */
+    background-color: bisque;
+}
+.search{
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgb(209, 234, 15);
+    font-size: 30px;
+    font-weight: 2rem;
+}
+.filter{
+    border: 5px solid purple;
+    display: flex;
+
+}
+.si{
+    font-size: 1rem;
+    padding-left: 3cap;
+}
+.price{
+    font-size: 1rem; 
+}
+.resto{
+    display: flex;
+    gap: 20px;
+        padding-top: 40px;
+        border: 10px solid yellow ;
+
+
+}
+.restcard:hover{
+cursor: pointer;
+scale: 1.2;
+border-color: rgb(135, 58, 3);
+background-color:rgb(20, 231, 255);
+}
+.searchbox{
+    background-color:blue
+}
